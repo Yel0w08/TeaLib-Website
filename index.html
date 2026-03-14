@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="TeaLib.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeaLib ☕ - Lightweight C++ Console Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TeaLib ☕</h1>
+        <p>Lightweight header-only library that makes console programming in C++ easier and cleaner.</p>
+    </header>
+    <div class="container">
+        <p>It provides simple functions for common console tasks like printing text, helping beginners write readable code with less boilerplate.</p>
+
+        <h2>Features</h2>
+        <ul>
+            <li>Simple console output functions</li>
+            <li>Beginner-friendly syntax</li>
+            <li>Header-only (no compilation required)</li>
+            <li>Works with standard C++ projects</li>
+        </ul>
+
+        <h2>Installation</h2>
+        <ol>
+            <li>Download the file <strong>TeaLib.h</strong></li>
+            <li>Put it inside your <strong>project folder</strong></li>
+            <li>Include it in your C++ file</li>
+        </ol>
+        <pre><code>#include "TeaLib.h"</code></pre>
+
+        <h2>Basic Example</h2>
+        <pre><code>#include "TeaLib.h"
+
+using namespace TeaLib;
+
+int main()
+{
+    print("Welcome to TeaLib, ");
+    printLine("Hello, World!");
+}</code></pre>
+        <h3>Output</h3>
+        <pre>Welcome to TeaLib, Hello, World!</pre>
+
+        <h2>Requirements</h2>
+        <ul>
+            <li>C++11 or newer</li>
+            <li>Any C++ compiler (GCC, Clang, MSVC)</li>
+        </ul>
+
+        <h2>Project Structure</h2>
+        <pre class="project-structure">TeaLib
+│
+├── TeaLib.h
+└── examples/
+    └── basic.cpp</pre>
+
+        <h2>Contributing</h2>
+        <p>Contributions are welcome!</p>
+        <p>You can help by:</p>
+        <ul>
+            <li>Reporting bugs</li>
+            <li>Suggesting features</li>
+            <li>Improving documentation</li>
+            <li>Submitting pull requests</li>
+        </ul>
+    </div>
+</body>
+</html>
